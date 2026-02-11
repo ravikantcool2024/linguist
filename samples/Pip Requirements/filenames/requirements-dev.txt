@@ -5,3 +5,4 @@ pytest-httpbin==2.0.0
 httpbin~=0.10.0
 trustme
 wheel
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
